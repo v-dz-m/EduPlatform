@@ -1,0 +1,155 @@
+html::-webkit-scrollbar {
+    display: none;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Roboto;
+}
+
+.header-info, .footer-info {
+    color: #dcdcdc;
+    background-color: #212121;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1em;
+}
+
+.header-info button {
+    padding: 0.5em;
+    border: none;
+    border-radius: 0.5em;
+    cursor: pointer;
+}
+
+.header-info a {
+    text-decoration: none;
+    color: #000;
+}
+
+.panel {
+    padding: 1em;
+    font-family: Roboto;
+    color: #fff;
+}
+
+.panel h3 {
+    text-shadow: -1px 1px 2px black;
+    margin-bottom: 0.5em;
+    font-size: 1.5em;
+    color: #fff;
+}
+
+.panel a {
+    text-decoration: none;
+}
+
+.panel.administrator {
+    background-color: cornflowerblue;
+}
+
+.panel.student {
+    background-color: limegreen;
+}
+
+.panel.tutor {
+    background-color: orangered;
+}
+
+.panel.linkToAddMaterial {
+    background-color: limegreen;
+}
+
+.panel.linkToCreateCourse {
+    background-color: lightsteelblue;
+}
+
+.panel.linkToLibrary {
+    background-color: silver;
+}
+
+.panel.linkToSettings {
+    background-color: cornflowerblue;
+}
+
+#catalog {
+    background-image: url("../_images/fon.jpg");
+    min-height: 69.5vh;
+}
+
+.book {
+
+}
+
+.book.hidden {
+    display: none;
+}
+
+.book-title {
+    background-color: rgba(50, 205, 50, 0.9);
+    color: #fff;
+    padding: 1em;
+    cursor: pointer;
+}
+
+.book-details {
+    display: none;
+    padding: 1em;
+    background-color: rgba(255, 255, 255, 0.9);
+}
+
+.book-details-table {
+    border-collapse: collapse;
+}
+
+.book-details-table td {
+    border: 1px solid black;
+    padding: 5px;
+}
+
+.book-details-table tr > td:first-child {
+    text-align: right;
+}
+
+.formRow {
+    display: flex;
+    justify-content: space-between;
+    padding: 0.5em 1em;
+    max-width: 25%;
+}
+
+.formRow textarea {
+    resize: none;
+}
+
+.formRow input[type="text"],
+.formRow textarea {
+    padding: 0 5px;
+}
+
+#filter {
+    display: flex;
+    justify-content: flex-end;
+    padding: 1em;
+    background-color: #98FB98;
+}
+
+.filterParameter {
+    margin-left: 1em;
+}
+
+.filterParameter label {
+    font-weight: bold;
+}
+
+.filterParameter select {
+    padding: 0.3em;
+    border-radius: 0.3em;
+    min-width: 9em;
+}
+
+.main-page {
+    background: url("../_images/brushed.png");
+}

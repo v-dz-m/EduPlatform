@@ -1,0 +1,32 @@
+#course-wrapper {
+    display: flex;
+}
+
+#course-wrapper > div {
+    padding: 1em;
+}
+
+#course-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: wheat;
+    width: 75%;
+}
+
+#course-list {
+    background-color: lightblue;
+}
+
+.course-list-elements {
+    background-color: #fff9;
+    border-radius: 0.3em;
+    padding: 0.5em 1em;
+    margin: 1em 0;
+    cursor: pointer;
+    font-family: "Roboto";
+}
+
+.course-list-elements.selected {
+    background-color: #ffff;
+}
